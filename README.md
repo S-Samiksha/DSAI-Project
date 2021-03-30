@@ -5,7 +5,7 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), Fathima and Gide
 
 # About the Database
 ```HTML
-<img src="https://www.kaggle.com/olistbr/brazilian-ecommerce.png">
+<img src="https://i.imgur.com/HRhd2Y0.png">
 ```
 
 # Single Variate Analysis: Review Status 
