@@ -4,9 +4,7 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), Fathima and Gide
 # About this project
 
 # About the Database
-```HTML
-<img src="https://i.imgur.com/HRhd2Y0.png">
-```
+![image](https://user-images.githubusercontent.com/71448008/112981086-44770880-918d-11eb-91f0-996f72c4ddde.png)
 
 # Single Variate Analysis: Review Status 
 Description: you can link the ipynb here itself using the commands 
