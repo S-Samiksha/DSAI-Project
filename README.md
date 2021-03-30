@@ -5,7 +5,8 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), Fathima and Gide
 
 # About the Database
 ```HTML
-<img src="https://user-images.githubusercontent.com/71448008/112979752-93bc3980-918b-11eb-95a6-b59705bf1da2.png" alt="drawing" width="200"/>
+<img src="![image](https://user-images.githubusercontent.com/71448008/112980196-252bab80-918c-11eb-92d6-de6f56e0774c.png)
+" alt="drawing" width="200"/>
 ```
 
 # Single Variate Analysis: Review Status 
