@@ -6,7 +6,9 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), Fathima and Gide
 | Machine Learning | Training |
 
 # About this project
-**The Research Question:** How different variables such as estimated delivery time, actual delivery time, the difference between these two, whether the order was delivered to the customer or not, the review score affect future customer purchases?
+**The Research Question:** 
+How different variables such as actual delivery time, the difference between these two, order status, the review score and freight value go on to affect future customer purchases? 
+
 
 # About the Database
 ![image](https://user-images.githubusercontent.com/71448008/112981086-44770880-918d-11eb-91f0-996f72c4ddde.png)
