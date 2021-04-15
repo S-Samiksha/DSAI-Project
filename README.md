@@ -26,5 +26,6 @@ Part 4: Payment Mode
 Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to seive out variables that affect review score such that it can be later used for multi variate analysis and thereafter machine learning. 
 
 The first part explores the response variable which is the `review score`. The reason why `review score` was chosen as the response variable is because review score is a major contributor to perception about the sellers. When this perception is positive, consumers are more likely to purchase from that particular seller. 
-This is substantiated by a research conducted by Profitero. 
+This is substantiated by a research conducted by Profitero: 
+<br>
 [Assessing the Impact of Ratings and Reviews on eCommerce Performance.pdf by Keith Anderson](http://insights.profitero.com/rs/476-BCC-343/images/Assessing%20the%20Impact%20of%20Ratings%20and%20Reviews%20on%20eCommerce%20Performance.pdf)
