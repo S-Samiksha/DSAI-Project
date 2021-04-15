@@ -7,7 +7,7 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), Fathima and Gide
 
 # About this project
 **The Research Question:** 
-How different variables such as actual delivery time, the difference between these two, order status, the review score and freight value go on to affect future customer purchases? 
+How different variables such as **actual delivery time**, **the difference between actual and estimated wait time**, **order status**, **freight value**, **payment value**, **payment installment** affect the **review score** in each of the different **product type categories**, `Houseware`, `auto`, `furniture decor`, `computer accessories`, `health beauty`, `sports leisure`? 
 
 
 # About the Database
