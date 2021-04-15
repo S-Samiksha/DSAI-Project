@@ -29,3 +29,10 @@ The first part explores the response variable which is the `review score`. The r
 This is substantiated by a research conducted by Profitero: 
 <br>
 [Assessing the Impact of Ratings and Reviews on eCommerce Performance.pdf by Keith Anderson](http://insights.profitero.com/rs/476-BCC-343/images/Assessing%20the%20Impact%20of%20Ratings%20and%20Reviews%20on%20eCommerce%20Performance.pdf)
+Part 1 also analysizes how to clean the data with respect to review score. One such example is class balancing. This is further explained in the python notebook. 
+
+
+Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, part 2 to 4 single variate analysis provides insights into how to clean data and prepare it for the multi variate and machine learning process in this project. 
+
+
+# Multi Variate Analysis 
