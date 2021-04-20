@@ -31,18 +31,18 @@ The above is done throughout the notebooks and not in any specific notebook.
 
 # Exploratory Data Analysis (EDA)
 There are 4 parts to EDA:
- Part 1: Review Status
- Part 2: Delivery Time
- Part 3: Product Type
- Part 4: Payment Mode
+ 1. Part 1_Review Status
+ 2. Part 2_Delivery Time
+ 3. Part 3_Product Type
+ 4. Part 4_Payment Mode
 
-Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to seive out variables that affect review score such that it can be later used for multi variate analysis and thereafter machine learning. 
+Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to sieve out variables that affect review score such that it can be later used for multi variate analysis and thereafter machine learning. 
 
 The first part explores the response variable which is the `review score`. The reason why `review score` was chosen as the response variable is because review score is a major contributor to perception about the sellers. When this perception is positive, consumers are more likely to purchase from that particular seller. 
 This is substantiated by a research conducted by Profitero: 
 <br>
 [Assessing the Impact of Ratings and Reviews on eCommerce Performance.pdf by Keith Anderson](http://insights.profitero.com/rs/476-BCC-343/images/Assessing%20the%20Impact%20of%20Ratings%20and%20Reviews%20on%20eCommerce%20Performance.pdf)
-Part 1 also analysizes how to clean the data with respect to review score. One such example is class balancing. This is further explained in the python notebook. 
+Part 1 also analyses how to clean the data with respect to review score. One such example is class balancing. This is further explained in the python notebook. 
 
 
 Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, part 2 to 4 single variate analysis provides insights into how to clean data and prepare it for the multi variate and machine learning process in this project. 
