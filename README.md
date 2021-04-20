@@ -29,8 +29,8 @@ All CSVs that are being used for this project are uploaded.
 
 The above is done throughout the notebooks and not in any specific notebook.
 
-# Single Variate Analysis (Exploratory Data Analysis)
-There are 4 parts to Single Variate Analysis:
+# Exploratory Data Analysis (EDA)
+There are 4 parts to EDA:
 Part 1: Review Status 
 Part 2: Delivery Time 
 Part 3: Product Type 
