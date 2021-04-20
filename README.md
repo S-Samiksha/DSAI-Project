@@ -31,10 +31,10 @@ The above is done throughout the notebooks and not in any specific notebook.
 
 # Exploratory Data Analysis (EDA)
 There are 4 parts to EDA:
-Part 1: Review Status 
-Part 2: Delivery Time 
-Part 3: Product Type 
-Part 4: Payment Mode 
+ Part 1: Review Status
+ Part 2: Delivery Time
+ Part 3: Product Type
+ Part 4: Payment Mode
 
 Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to seive out variables that affect review score such that it can be later used for multi variate analysis and thereafter machine learning. 
 
