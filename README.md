@@ -16,7 +16,20 @@ Taken from: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_prod
 
 All CSVs that are being used for this project are uploaded. 
 
-# Single Variate Analysis
+# Packages To Install
+ 1. Graphviz
+
+# Data Extraction, Curation, Preparation & Cleaning
+ 1. Merging Datasets
+ 2. Filtering reviews based on order status
+ 3. Reclassifying review score
+ 4. Splitting the dataset into 6 product categories
+ 5. Removing duplicates and null values
+ 6. Balancing review score
+
+The above is done throughout the notebooks and not in any specific notebook.
+
+# Single Variate Analysis (Exploratory Data Analysis)
 There are 4 parts to Single Variate Analysis:
 Part 1: Review Status 
 Part 2: Delivery Time 
@@ -34,5 +47,13 @@ Part 1 also analysizes how to clean the data with respect to review score. One s
 
 Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, part 2 to 4 single variate analysis provides insights into how to clean data and prepare it for the multi variate and machine learning process in this project. 
 
-
 # Multi Variate Analysis 
+For the machine learning, we initially used a Decision Tree. The classification accuracy was above 65% for most product types. False positive rate was below 50% for most product types. The classification accuracy could have been better and the false positive rate was too high.
+
+Hence, we used a Random Forest. The classification accuracy increases to almost 80% for most product types. Additionally, the false positive rates drop below 30%. Hence, Random Forest was a better suited technique. We tested and found out that the following hyperparameters provide the best result (without overfitting): max_depth = , n_estimators =  .
+
+# Results
+
+# Conclusion
+
+Thank you for dropping by. 
