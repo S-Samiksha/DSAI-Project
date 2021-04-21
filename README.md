@@ -7,7 +7,7 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), [Fathima](https:
 
 # About this project
 **The Research Question:** 
-How different variables such as **actual delivery time**, **the difference between actual and estimated wait time**, **order status**, **freight value**, **payment value**, **payment installment** affect the **review score** in each of the different **product type categories**, `Houseware`, `auto`, `furniture decor`, `computer accessories`, `health beauty`, `sports leisure`? 
+How different variables such as **actual delivery time**, **the difference between actual and estimated wait time**, **freight value**, **payment value**, **payment installment** affect the **review score** in each of the different **product type categories**, `Houseware`, `auto`, `furniture decor`, `computer accessories`, `health beauty`, `sports leisure`? 
 
 
 # About the Database
@@ -45,7 +45,7 @@ This is substantiated by a research conducted by Profitero:
 Part 1 also analyses how to clean the data with respect to review score. One such example is class balancing. This is further explained in the python notebook. 
 
 
-Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, parts 2 to 4 provides insights into how to clean data and prepare it for the multi variate and machine learning process in this project. 
+Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, parts 2 to 4 provides insights into how to clean data and prepare it for the multi variate analysis and machine learning process in this project. 
 
 # Multi Variate Analysis 
 For the machine learning, we initially used a Decision Tree. The classification accuracy was above 65% for most product types. False positive rate was below 50% for most product types. The classification accuracy could have been better and the false positive rate was too high.
