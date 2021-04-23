@@ -35,6 +35,7 @@ There are 4 parts to EDA:
  2. Part 2_Delivery Time
  3. Part 3_Product Type
  4. Part 4_Payment Mode 
+ 5. Part 5_Multi Variate Analysis
 
 Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to sieve out variables that affect review score such that it can be later used for multi variate analysis and thereafter machine learning. 
 
@@ -46,6 +47,8 @@ This is substantiated by a research conducted by Profitero:
 Part 1 also analyses how to clean the data with respect to review score. One such example is class balancing. This is further explained in the python notebook. 
 
 Parts 2 to 4 explore the predictors that will be used in the multivariate analysis and machine learning. Additionally, parts 2 to 4 provides insights into how to clean data and prepare it for the multi variate analysis and machine learning process in this project. 
+
+Part 5 explores the predictors with respect to their product category.
 
 # Multi Variate Analysis 
 For the machine learning, we initially used a Decision Tree. The classification accuracy was above 65% for most product types. False positive rate was below 50% for most product types. The classification accuracy could have been better and the false positive rate was too high.
