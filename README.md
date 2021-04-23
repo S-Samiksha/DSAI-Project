@@ -3,7 +3,7 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), [Fathima](https:
 | Work Done | Files to look at |
 | --- | --- |
 | Exploratory Data Analysis |(In order) Review Status, Delivery Time, Product Type |
-| Machine Learning | Training |
+| Machine Learning | Parts 7a, 7b,8 |
 
 # About this project
 **The Research Question:** 
