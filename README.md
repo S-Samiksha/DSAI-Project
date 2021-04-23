@@ -69,6 +69,9 @@ Best score is the "Mean cross-validated score of the best_estimator". Since cv =
 
 This function will return the best hyperparameters max_depth and n_estimators. These are then run into the random forest in this very ipynb. Seen from above, classification accuracy, true positive and true negative are above 95% and false positive and false negative are below 1% for all product types. Train and test data are very similar. Hence, there is no overfitting as explained earlier.
 
+This is a comparison of the different machine learning results:
+{"A?":"B","a":5,"d":"B","h":"www.canva.com","c":"DAEXkuQnfLk","i":"8zl65Zp3it1-dczTYypLkQ","b":1619165828930,"A":[{"A?":"I","A":199.64137862848582,"B":183.58251021499086,"D":1552.8349795700185,"C":829.678979422435,"a":{"B":{"A":{"A":"MAEcfpSar_0","B":1},"B":{"A":-1.1368683772161603e-13,"B":-1.1368683772161603e-13,"D":1552.8349795700187,"C":829.6789794224352}}}}],"B":1920,"C":1080}
+
 # Conclusion
 From our machine learning we learnt the following:
 <br>
