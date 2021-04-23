@@ -71,6 +71,7 @@ This function will return the best hyperparameters max_depth and n_estimators. T
 
 # Conclusion
 From our machine learning we learnt the following:
+<br>
 We learnt that sellers should liaise with a delivery team that is able deliver faster to get lower actual times and lower actual minus estimated time to increase their review score. Similarly, to attain lower freight value ,sellers can order in bulk or find companies that allow lower freight value. 
 To achieve lower payment value, sellers should Create deals with credit card companies or banks to enable the lowest payment value. To achieve lower payment installments sellers can create better and a more variety of payment installment plans. 
 
