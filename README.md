@@ -70,13 +70,15 @@ Best score is the "Mean cross-validated score of the best_estimator". Since cv =
 This function will return the best hyperparameters max_depth and n_estimators. These are then run into the random forest in this very ipynb. Seen from above, classification accuracy, true positive and true negative are above 95% and false positive and false negative are below 1% for all product types. Train and test data are very similar. Hence, there is no overfitting as explained earlier.
 
 This is a comparison of the different machine learning results:
-{"A?":"B","a":5,"d":"B","h":"www.canva.com","c":"DAEXkuQnfLk","i":"8zl65Zp3it1-dczTYypLkQ","b":1619165828930,"A":[{"A?":"I","A":199.64137862848582,"B":183.58251021499086,"D":1552.8349795700185,"C":829.678979422435,"a":{"B":{"A":{"A":"MAEcfpSar_0","B":1},"B":{"A":-1.1368683772161603e-13,"B":-1.1368683772161603e-13,"D":1552.8349795700187,"C":829.6789794224352}}}}],"B":1920,"C":1080}
+
 
 # Conclusion
 From our machine learning we learnt the following:
 <br>
 We learnt that sellers should liaise with a delivery team that is able deliver faster to get lower actual times and lower actual minus estimated time to increase their review score. Similarly, to attain lower freight value ,sellers can order in bulk or find companies that allow lower freight value. 
 To achieve lower payment value, sellers should Create deals with credit card companies or banks to enable the lowest payment value. To achieve lower payment installments sellers can create better and a more variety of payment installment plans. 
+
+Using our ML, sellers will be able to predict their review scores depending on how their variables are changed. This will provide useful insight specific to their business and allow them to modify the variables such that they get a higher review score, and thus garner more business. As mentioned earlier, reviews are hugely important to the business.
 
 
 # Reference 
