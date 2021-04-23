@@ -30,7 +30,7 @@ All CSVs that are being used for this project are uploaded.
 The above is done throughout the notebooks and not in any specific notebook.
 
 # Exploratory Data Analysis (EDA)
-There are 4 parts to EDA:
+There are 5 parts to EDA:
  1. Part 1_Review Status
  2. Part 2_Delivery Time
  3. Part 3_Product Type
