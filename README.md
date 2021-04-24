@@ -70,11 +70,12 @@ Best score is the "Mean cross-validated score of the best_estimator". Since cv =
 This function will return the best hyperparameters max_depth and n_estimators. These are then run into the random forest in this very ipynb. Seen from above, classification accuracy, true positive and true negative are above 95% and false positive and false negative are below 1% for all product types. Train and test data are very similar. Hence, there is no overfitting as explained earlier.
 
 This is a comparison of the different machine learning results:
+<br>![Screenshot (63)](https://user-images.githubusercontent.com/74095679/115947012-7dd63600-a4f7-11eb-9909-5e6c509305c1.png)
 
 
 # Conclusion
 From our machine learning we learnt the following:
-<br>
+
 We learnt that sellers should liaise with a delivery team that is able deliver faster to get lower actual times and lower actual minus estimated time to increase their review score. Similarly, to attain lower freight value ,sellers can order in bulk or find companies that allow lower freight value. 
 To achieve lower payment value, sellers should Create deals with credit card companies or banks to enable the lowest payment value. To achieve lower payment installments sellers can create better and a more variety of payment installment plans. 
 
