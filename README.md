@@ -20,8 +20,9 @@ How different variables such as **actual delivery time**, **the difference betwe
 #### About the Database
 Kaggle provided many datasets among which only a selected few were merged and cleaned. The image below shows the datasets that were merged for this project:
 
+---html
 <img src="./assets/DSAI_project/datasets.jpg" width="100%" style="vertical-align:middle">
-
+---
 
 Taken from: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv 
 
