@@ -333,8 +333,6 @@ Using our Machine Learning Outcome, sellers will be able to predict their review
 ## Acknowledgements:
 We want to thank our professor, Prof Sourav Sen Gupta and our lab teaching assistant Prof Kwok Hong Jing for their continuous support and help throughout the project.
 
-I also want to thank my group members, Fathima and Gideon, who have worked with me for this project.
-
 # Reference 
 Olist, “Brazilian E-Commerce Public Dataset by Olist,” Kaggle, 29-Nov-2018. [Online]. Available: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv. [Accessed: 23-Apr-2021].
 L. Breiman and A. Cutler, “Random Forests Leo Breiman and Adele Cutler,” Random forests - classification description. [Online]. Available: https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm. [Accessed: 23-Apr-2021].
