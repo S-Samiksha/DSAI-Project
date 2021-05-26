@@ -8,9 +8,9 @@ Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), [Fathima](https:
 #### About E-Commerce
 One of the booming industries in the 21st Century is the E-commerce industry. With many people living a fast-paced life, it is much easier to purchase the items needed with a simple click of a button. Given this rapidly growing industry, sellers have started selling products on online platforms such as Shopee, Lazada, and in Brazil, Olist. 
 
-While sellers are trying to increase their profits as much as they can, much of this profit depends on how much people buy from these sellers. So how are sellers going to attract customers? If they do attract customers, how are they going to ensure *continuous long-term attraction* of these customers? The answer is customer satisfaction. Many companies and online sellers are increasingly focusing on consumer experience. The more a consumer is contented, the more likely they are going to come back to the seller and the online platform. Additionally, satisfied customers leave positive review scores that attract other customers to the sellers.
+While sellers are trying to increase their profits as much as they can, much of this profit depends on how much people buy from these sellers. So how are sellers going to attract customers? If they do attract customers, how are they going to ensure a *continuous long-term attraction* of these customers? The answer is customer satisfaction. Many companies and online sellers are increasingly focusing on consumer experience. The more a consumer is contented, the more likely they are going to come back to the seller and the online platform. Additionally, satisfied customers leave positive review scores that attract other customers to the sellers.
 
-Profitero wrote an article stating that review score is a great reflection of customer satisfaction. As such, we decided to focus on customer satisfaction in the Olist Online Platform in Brazil. Review Score was chosen as our response variable. Through exploratory data analysis, we narrowed down to 5 predictors: actual delivery time, the difference between actual and estimated wait time, freight value, payment value and payment instalment. 
+Profitero wrote an article stating that review scores are a great reflection of customer satisfaction. As such, we decided to focus on customer satisfaction in the Olist Online Platform in Brazil. Review Score was chosen as our response variable. Through exploratory data analysis, we narrowed down to 5 predictors: actual delivery time, the difference between actual and estimated wait time, freight value, payment value and payment instalment. 
 
 
 #### The Research Question:
@@ -19,7 +19,6 @@ How different variables such as **actual delivery time**, **the difference betwe
 
 #### About the Database
 Kaggle provided many datasets among which only a selected few were merged and cleaned. The image below shows the datasets that were merged for this project:
-
 
 <img src="./assets/DSAI_project/datasets.jpg" width="100%" style="vertical-align:middle">
 
@@ -38,6 +37,7 @@ Actual wait time and the difference between actual and estimated wait time had t
  2. Python
  3. Jupyter Notebook (Anaconda)
  4. Python Graphviz (Anaconda)
+ 5. Github Desktop for collaboration (Optional)
 
 #### The steps taken before machine learning was carried out
  1. Merging Datasets
@@ -49,14 +49,14 @@ Actual wait time and the difference between actual and estimated wait time had t
 
 
 ## Exploratory Data Analysis (EDA)
-In the github repository, there are 5 parts to EDA:
+In the GitHub repository, there are 5 parts to EDA:
  1. Part 1_Review Status
  2. Part 2_Delivery Time
  3. Part 3_Product Type
  4. Part 4_Payment Mode 
  5. Part 5_Multi Variate Analysis
 
-Each of these parts explain the CSVs provided by the Kaggle Website. Additionally, it helps to sieve out variables that affect review score so that it can be later used for multi variate analysis and thereafter machine learning. 
+Each of these parts explains the CSVs provided by the Kaggle Website. Additionally, it helps to sieve out variables that affect review score so that they can be later used for multivariate analysis and thereafter machine learning.
 
 #### Cleaning and Reorganizing Review Score
 The review score is a categorical data type with a class imbalance. 
@@ -107,11 +107,11 @@ Category types that were consistently in the top ten from 2016 to 2018 were sele
 
 ## Machine Learning 
 #### Machine Learning: Decision Tree
-A decision tree is a basic machine learning tool. It uses the different numerical predictors to predict whether the review score is of class 0 or of class 1. The machine learning outcome changes everytime the ipynb is run. 
+A decision tree is a basic machine learning tool. It uses the different numerical predictors to predict whether the review score is of class 0 or class 1. The machine learning outcome changes every time the ipynb is run. 
 
 <img src="./assets/DSAI_project/decisiontree.png" width="100%" style="vertical-align:middle">
 
-At each leaf node, a predictor is used. Above a certain value of the predictor variable, the review score is classified into class 1 and below that value it is classified as class 0. The decision tree has a max depth of 6. Here is the code for the decision tree:
+At each leaf node, a predictor is used. Above a certain value of the predictor variable, the review score is classified into class 1 and below that value, it is classified as class 0. The decision tree has a max depth of 6. Here is the code for the decision tree:
 
 ```python
     #https://scikit-learn.org/stable/modules/tree.html
@@ -182,7 +182,7 @@ At each leaf node, a predictor is used. Above a certain value of the predictor v
 This decision tree method did not provide a very high classification accuracy (65% to 75%), true positive (60% to 85%) and true negative (50% to 60%). There was a large distribution of these values across product types too. Every time the notebook is run, the train and test classification accuracy would differ from a range of 1% to 10%. Additionally, false positive was above 40% for most product types across multiple runs of the ipynb. This shows that the machine learning tool was not the best. 
 
 #### Machine Learning: Random Forest
-Another option was to run random forest. A random forest uses a 'forest', a multitude of decisions trees that help to classify the data points into the different review scores. The reason why random forest works so well is that "A large number of relatively uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models." (sklearn). Here is the code for the random forest:
+Another option was to run the random forest algorithm. A random forest uses a 'forest', a multitude of decisions trees that help to classify the data points into the different review scores. The reason why random forest works so well is that "A large number of relatively uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models." (sklearn). Here is the code for the random forest:
 
 ```python
     def train_and_predict(dataframe):
@@ -247,11 +247,11 @@ Another option was to run random forest. A random forest uses a 'forest', a mult
                 annot = True, fmt=".0f", annot_kws={"size": 18}, ax = axes[1])
 ```
 
-There is low correlation between the trees and the trees help to cover each other’s errors to enable the most accurate classification. Hence, we see that the random forest does enable better classification in part 7. The max_depth was set to 6 the same as when the decision tree was run. False positive was still in the same range as the decision tree. 
+There is a low correlation between the trees and the trees help to cover each other’s errors to enable the most accurate classification. Hence, we see that the random forest does enable better classification in part 7. The max_depth was set to 6 the same as when the decision tree was run. False positive was still in the same range as the decision tree. 
 
-False positives are generally bad given our research question. This is because sellers want to adjust their actual delivery time, the difference between actual and estimated wait time, freight value, payment value, payment instalment such that they obtain the best review score 1 which is translated to 3 to 5 review score. If they adjust these factors and get a false positive, then they may predict a high review score but end up getting a low one.
+False positives are generally bad given our research question. This is because sellers want to adjust their actual delivery time, the difference between actual and estimated wait time, freight value, payment value, payment instalment such that they obtain the best review score 1 which was translated to a 3 to 5 review score. If they adjust these factors and get a false positive, then they may predict a high review score but end up getting a low one.
 
-The random forest also gives different outcomes every time the ipynb is run. However, the classification accuracy, true positive, true negative, false positive, false negative as well as the deviation between train and test data change very little across the different runs of the ipynb. In fact, the difference from every run is less than 5%. This makes the random forest more reliable than a decision tree given the same set of data given. 
+The random forest also gives different outcomes every time the ipynb is run. However, the classification accuracy, true positive, true negative, false positive, false negative as well as the deviation between train and test data change very little across the different runs of the ipynb. The difference from every run is less than 5%. This makes the random forest more reliable than a decision tree given the same set of data given. 
 
 #### Machine Learning: Cross-Validated Grid Search
 
@@ -259,9 +259,9 @@ However, an additional step must be done to reduce the false positive. Tuning of
 
 To find the best hyperparameters a Grid Search is done.
 
-Grid Search will then run a range for the hyperparameters. The definition provided by the official Sci-Kit learn website is "The parameters of the estimator used to apply these methods are optimized by cross-validated grid-search over a parameter grid." Cross validation is defined as "Cross validation is a statistical method used to estimate the performance (or accuracy) of machine learning models." 
+Grid Search will then run a range for the hyperparameters. The definition provided by the official Sci-Kit learn website is "The parameters of the estimator used to apply these methods are optimized by cross-validated grid-search over a parameter grid." Cross-validation is defined as "Cross-validation is a statistical method used to estimate the performance (or accuracy) of machine learning models." 
 
-Best score is the average of the cross-validated score of the best hyperparameters. Since cv = 5, the train and test split will occur five times for each hyperparameter. The best score is calculated for each try and for each combination of hyperparameters. The best score will return the average of the best hyperparameter combination in those 5 tries. 
+The Best_Score is the average of the cross-validated score of the best hyperparameters. Since cv = 5, the train and test split will occur five times for each hyperparameter. The best score is calculated for each trial and each combination of hyperparameters. The best score will return the average of the best hyperparameter combination in those 5 tries. 
 
 This function will return the best hyperparameters max_depth and n_estimators. The max_depth was run from a range of 2 to 11, using the NumPy range. The n_estimators was run from 100 to 1001 at a step of 100. For all product types, the best max_depth was 10. Here is the code for the Grid Search:
 
@@ -307,11 +307,11 @@ This function will return the best hyperparameters max_depth and n_estimators. T
 
 After tuning the hyperparameters, classification accuracy, true positive and true negative went above 90% and false positive went below 2% for most product types. Train and test data were similar although had a discrepancy of about 5% to 11%. 
 
-Next, a range of 9 to 14 using the NumPy range was done for max depth. The n_estimators was run from 100 to 1001 at a step of 100. The classification accuracy increased to above 95% for most product types. The train and test data had discrepancy below 10% this time round. 
+Next, a range of 9 to 14 using the NumPy range was done for max depth. The n_estimators was run from 100 to 1001 at a step of 100. The classification accuracy increased to above 95% for most product types. The train and test data had a discrepancy below 10% this time around. 
 
 By increasing max_depth and varying its n_estimators, the machine learning outcome is much better than what we had originally in the decision tree. Although the outcome still has a significant difference between train and test, it is much smaller than before and does not change every time the ipynb is run, increasing reliability. 
 
-Further increasing max_depth and n_estimators, can allow for and even better classification accuracy in test data as well. 
+Further increasing max_depth and n_estimators can allow for an even better classification accuracy in test data as well. 
 To give a summary of the data and show the differences, look at the below table:
 
 The below table only shows the data for max_depth 10.
@@ -319,13 +319,13 @@ The below table only shows the data for max_depth 10.
 <img src="./assets/DSAI_project/Final_summary_table.PNG" width="100%" style="vertical-align:middle">
 
 ## Conclusion
-In conclusion, an improvement in overall statistics from decision tree to the random forest (after Grid Search) is seen. Further improvements can be made by increasing the max_depth. 
+In conclusion, an improvement in overall statistics from the decision tree to the random forest (after Grid Search) is seen. Further improvements can be made by increasing the max_depth. 
 
-Our team has learnt much through this project. We have learnt how to use a random forest, tune hyper parameters and clean data such that it results in a better machine learning outcome.  
+Our team has learnt much through this project. We have learnt how to use a random forest, tune hyperparameters and clean data such that it results in a better machine learning outcome.  
 
-We also learnt that sellers should liaise with a delivery team that is able deliver faster to obtain lower actual times and actual minus estimated time to increase their review score. Similarly, to attain lower freight value, sellers can order in bulk or find companies that allow lower freight value. 
+We also learnt that sellers should liaise with a delivery team that can deliver faster to obtain lower actual times and actual minus estimated time to increase their review score. Similarly, to attain lower freight value, sellers can order in bulk or find companies that allow lower freight value. 
 
-To achieve lower payment value, sellers should Create deals with credit card companies or banks to enable the lowest payment value. To achieve lower payment installments sellers can create better and a more variety of payment installment plans. 
+To achieve lower payment value, sellers should Create deals with credit card companies or banks to enable the lowest payment value. To achieve lower payment instalments sellers can create better and a more variety of payment instalment plans. 
 
 Using our Machine Learning Outcome, sellers will be able to predict their review scores depending on how their variables are changed. This will provide useful insights specific to their business and allow them to modify the variables such that they get higher review scores, and thus garner more business. 
 
