@@ -1,5 +1,4 @@
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
-[![Build Status](https://travis-ci.com/S-Samiksha/DSAI-project.svg?branch=master)](https://github.com/S-Samiksha/DSAI-Project/)
 
 ---
 
