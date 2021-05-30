@@ -1,4 +1,4 @@
-[![Inline docs](http://inch-ci.org/github/{S-Samiksha}/{DSAI-Project}.svg?branch=master)](http://inch-ci.org/github/{S-Samiksha}/{DSAI-Project})
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
 ---
 
