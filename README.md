@@ -4,7 +4,7 @@
 ---
 
 # DSAI Project: Brazillian Olist E-commerce Database
-Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), [Fathima](https://github.com/fath3725) and [Gideon](https://github.com/gmanik30) from Nanyang Technological University. We were tasked to do a project in Data Science. We chose the Brazillian Olist E-commerce Database. 
+Hello! We are [Sankar Samiksha](https://github.com/S-Samiksha), [Nusrath Fathima](https://github.com/fath3725) and [Gideon](https://github.com/gmanik30) from Nanyang Technological University. We were tasked to do a project in Data Science. We chose the Brazillian Olist E-commerce Database. 
 | Work Done | Files to look at |
 | --- | --- |
 | Exploratory Data Analysis |(In order) Review Status, Delivery Time, Product Type |
